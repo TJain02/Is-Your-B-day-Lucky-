@@ -1,3 +1,55 @@
+:root {
+    --primary-color: #111827;
+    --light-indigo:#A7F3D0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
+
 body{
-    background-color: lavender;
+   margin-top: 175px;
+    background-color: var(--primary-color);
+    color: var(--light-indigo);
+    font-family: 'Encode Sans', sans-serif;
+    font-size: larger;
+}
+    h1 {
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+   margin: auto;  
+}
+
+input, label{
+  display: block;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+#check-num{
+    display: block;
+    margin-top: 1rem;
+    margin:auto;
+    background: transparent;
+    color: var(--light-indigo);
+    border-color: var(--light-indigo);
+}
+
+#result-box{
+    margin-top: auto;
+    padding: 1rem;
+}
+
+#d-o-b{
+    display: block;
+    padding: 0.2rem;
+  
+}
+
+#lucky-num{
+   padding: 0.2em;
 }
